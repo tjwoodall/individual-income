@@ -225,7 +225,7 @@ components:
         pensionsAnnuitiesAndOtherStateBenefits:
           allOf:
             - $ref: '#/components/schemas/pensionsAnnuitiesAndOtherStateBenefits'
-            - description: Income from pensions, annuities and other state benefits.
+          description: Income from pensions, annuities and other state benefits.
         employments:
           type: array
           items:
